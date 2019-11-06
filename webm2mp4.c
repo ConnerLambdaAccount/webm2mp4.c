@@ -6,7 +6,7 @@
 
 /*
 	Usage: run webm2mp4 in a directory with webms
-/*
+*/
 
 // Check that filename ends with a .webm
 int webm_check(char* fn) {
