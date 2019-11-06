@@ -11,7 +11,7 @@
 // Check that filename ends with a .webm
 int webm_check(char* fn) {
 	for(int i=0;i<strlen(fn);i++) {
-		if(fn[i] == '.' && strcmp(&fn[i], ".webm\0") == 0) {
+		if(fn[i] == '.' && strcmp(&fn[i], ".webm") == 0) {
 			return 0;
 		} 
 	}
