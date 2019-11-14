@@ -22,7 +22,7 @@ int webm_check(char* fn) {
 void add_mp4_extension(char* input, char* output) {
 	strcpy(output, input);
 	for(int i=0;i<strlen(output);i++) {
-		if(output[i] == '.' && strcmp(&output[i], ".webm\0") == 0) {
+		if(output[i] == '.' && strcmp(&output[i], ".webm") == 0) {
 			strcpy(&output[i+1], "mp4");
 		}
 	}
